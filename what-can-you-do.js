@@ -5,7 +5,7 @@ if(age < 16){
 } else if(age >= 16 && age <=17){
     console.log('You can drive but not vote.');
 } else if(age >= 18 && age <= 24) {
-    console.log('You can vote but not rent a car');
+    console.log('You can vote but not rent a car.');
 } else{
-    console.log('You can do pretty much anything.')
+    console.log('You can do pretty much anything.');
 } 

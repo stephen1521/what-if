@@ -1,9 +1,10 @@
 const prompt = require('prompt-sync')({sigint: true});
 let weight = Number(prompt('Enter your earth weight: '));
-let planet = Number(prompt('Enter planet number: '));
+console.log('Planet Numbers: 1-Venus, 2-Mars, 3-Jupter, 4-Saturn, 5-Uranus,6-Neptune');
+let planet = Number(prompt('Enter a planet number: '));
 let bool = true;
 let str = "";
-if(planet === 1) {
+if (planet === 1) {
     weight *= 0.78;
     str = 'Venus';
 } else if (planet === 2) {
@@ -25,6 +26,6 @@ if(planet === 1) {
     console.log('Invalid planet number');
     bool = false;
 }
-if(bool){
+if (bool) {
     console.log(`Your weight on planet ${str} is ${weight} lbs.`);
 }

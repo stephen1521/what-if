@@ -12,7 +12,7 @@ if(num === 1){
     console.log(' Friday');
 } else if(num === 6){
     console.log('Saturday');
-} else if (num === 7) {
+} else if(num === 7) {
     console.log('Sunday');
 } else{
     console.log('Error');

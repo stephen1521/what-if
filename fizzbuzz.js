@@ -9,3 +9,13 @@ if(num%3 === 0 && num%5 === 0) {
 } else{
     console.log('The number entered is not divisable by 3 or 5');
 }
+/* 
+let str = "";
+if(num%3 === 0) {
+    str = 'fizz';
+}
+if(num%5 === 0) {
+    str = str + 'buzz';
+}
+console.log(str);
+*/
